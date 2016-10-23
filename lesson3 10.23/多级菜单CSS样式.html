@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>zhedie</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        ul, ol {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .main-menu {
+            display: block;
+        }
+
+        .main-menu a {
+            width: 100px;
+
+            text-align: center;
+            line-height: 30px;
+            background-color: grey;
+            display: block;
+
+        }
+
+        .submenu {
+            width: 100px;
+
+            display: none;
+
+        }
+
+        .submenu li {
+            background-color: lightgrey;
+            width: 100px;
+
+            text-align: center;
+            line-height: 30px;
+
+            border-bottom: dashed;
+
+        main-menu :hover.submenu {
+            display: block;
+        }
+
+
+    </style>
+</head>
+
+
+<body>
+<ul id="menu">
+    <li class="main-menu">
+        <a href="#">link1</a>
+        <ul class="submenu">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+    </li>
+
+
+    <li class="main-menu"><a href="#">link2</a>
+        <ul class="submenu">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+    </li>
+
+</ul>
+<!--<script>-->
+<!--var oUl=document.getElementById('menu');-->
+<!--var aLi=oUl.children;-->
+
+<!--for(var i=0;i<aLi.length;i++) {-->
+
+<!--aLi[i].onclick=function () {-->
+<!--var oMain=this.children[1];-->
+<!--if(oMain.style.display=='block')-->
+<!--{oMain.style.display='none';}-->
+<!--else-->
+<!--{oMain.style.display='block';}-->
+
+
+<!--}-->
+
+<!--}-->
+<!--</script>-->
+</body>
+</html>
